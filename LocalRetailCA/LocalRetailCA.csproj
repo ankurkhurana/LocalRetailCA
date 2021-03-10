@@ -4,4 +4,12 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Content Remove="wwwroot\css\site.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BlazorStrap" Version="1.5.1" />
+  </ItemGroup>
+
 </Project>

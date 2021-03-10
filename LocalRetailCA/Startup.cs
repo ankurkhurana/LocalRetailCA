@@ -1,3 +1,4 @@
+using BlazorStrap;
 using LocalRetailCA.Data;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Components;
@@ -29,6 +30,7 @@ namespace LocalRetailCA
             services.AddRazorPages();
             services.AddServerSideBlazor();
             services.AddSingleton<WeatherForecastService>();
+            services.AddBootstrapCss();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
